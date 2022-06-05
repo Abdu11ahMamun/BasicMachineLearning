@@ -1,5 +1,8 @@
+'''
 Classification:
 ----------------
+'''
+
 import numpy as np
 import random
 from numpy import genfromtxt
@@ -81,7 +84,7 @@ print(accuracy)
 
 
 
-
+'''
 Result for classification:
 -----------
 
@@ -94,12 +97,12 @@ k			accuracy
 5	----->	88.0
 
 9	----->	96.55172413793103
+'''
 
-
-
+'''
 Regression:
 --------------
-
+'''
 
 import numpy as np
 import random
@@ -175,7 +178,7 @@ Mean_Squared_Error = (error/total_element)
 print(Mean_Squared_Error)
 
 
-
+'''
 Result for Regression:
 --------------------------
 
@@ -188,3 +191,4 @@ k		Mean_Squared_Error
 5	----->	12122.897033730163
 
 9	----->	8576.436121565705
+'''
